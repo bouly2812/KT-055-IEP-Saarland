@@ -24,6 +24,9 @@ Das System basiert auf folgenden Kernkomponenten:
 - **Systemstatus:** Planungsphase / Prototyp in Entwicklung
 
 ---
+**Mathematische Grundlagen:**
+Die vollständigen Berechnungen und Formeln hinter dem System sind in der Datei [kernformeln.md](src/kernformeln.md) dokumentiert.
+---
 
 ## Zielsetzung
 
