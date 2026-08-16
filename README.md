@@ -37,8 +37,8 @@ Das Projekt soll zeigen, dass regenerative Energiegewinnung und landwirtschaftli
 **Technische Dekonstruktion der Grundeinheit:**
 ![Detailzeichnung 1](docs/Detailzeichnung%201.png)
 ![Detailzeichnung 2](docs/Detailzeichnung%202.png)
-- [Terra-Protokoll (07.02.2026)](history/Terra%20Protokoll.docx) – Philosophische und systemische Grundlagen
-- [Wiederbegrünung arider Klimazonen (17.02.2026)](history/Wiederbegrünung%20arider%20Klimazonen.docx) – Technische Ausarbeitung und Standortanalyse (Atacama, Chile)
+- [Terra-Protokoll (07.02.2026)](history/Terra Protokoll.docx) – Philosophische und systemische Grundlagen
+- [Wiederbegrünung arider Klimazonen (17.02.2026)](history/Wiederbegrünung arider Klimazonen.docx) – Technische Ausarbeitung und Standortanalyse (Atacama, Chile)
 ---
 ## Autorenschaft
 
