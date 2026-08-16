@@ -43,7 +43,7 @@ Das Projekt soll zeigen, dass regenerative Energiegewinnung und landwirtschaftli
 Dieser Prototyp baut auf einer längeren Entwicklungsarbeit auf, die im Februar 2026 dokumentiert wurde:
 
 - [Terra-Protokoll (07.02.2026)](https://raw.githubusercontent.com/bouly2812/KT-055-IEP-Saarland/main/history/Terra%20Protokoll.docx) – Philosophische und systemische Grundlagen
-- [Wiederbegruenung arider Klimazonen (17.02.2026)](https://raw.githubusercontent.com/bouly2812/KT-055-IEP-Saarland/main/history/Wiederbegrünung%20arider%20Klimazonen.docx) – Technische Ausarbeitung und Standortanalyse (Atacama, Chile)
+- https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fbouly2812%2FKT-055-IEP-Saarland%2Frefs%2Fheads%2Fmain%2Fhistory%2FWiederbegruenung%2520arider%2520Klimazonen.docx&wdOrigin=BROWSELINK
 ---
 ## Autorenschaft
 
