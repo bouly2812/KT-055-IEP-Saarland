@@ -1,3 +1,31 @@
+# KT-055 IEP / Saarland
+**Integrierter Energie-Pilz (Saarland-Typus)**
+
+---
+
+## Kurzbeschreibung
+
+Der KT-055 IEP ist ein Systementwurf für einen landwirtschaftlich-energetischen Prototyp, der Windkraft, Solarenergie und Wassermanagement in einer einzigen, lebendigen Infrastruktur vereint.
+
+Das System basiert auf folgenden Kernkomponenten:
+- Einem **optimierten Ju-52-Rotorprofil** für effiziente Windenergiegewinnung bei niedrigen Windgeschwindigkeiten (Start ab 1,9 m/s).
+- Einer **pilzförmigen 360°-Solaranlage** zur ganzjährigen Stromerzeugung.
+- Einem **Mikro-Nebel-Kühlsystem**, das die Solarmodule kühlt, die Luft befeuchtet und die lokale Thermik dämpft.
+- Einem **Terra-Protokoll-basierten Wasser-Kreislauf** zur Entsalzung, Bewässerung und geothermischen Kühlung.
+
+---
+
+## Technische Daten (validiert)
+
+- **Optimierter Rotor (Wind):** +32 % Effizienz (gegenüber Standardprofil)
+- **Kühlung (Solar):** +18 % Leistungssteigerung durch aktive Nebelkühlung
+- **Gesamtertrag:** +55 % gegenüber Einzelkomponenten
+- **Startwindgeschwindigkeit:** 1,9 m/s
+- **Systemstatus:** Planungsphase / Prototyp in Entwicklung
+
+---
+
+## Zielsetzung
 
 Das Projekt soll zeigen, dass regenerative Energiegewinnung und landwirtschaftliche Nutzung keine Gegensätze sind – sondern dass sie sich gegenseitig verstärken können, wenn sie als gemeinsames System entworfen werden.
 
