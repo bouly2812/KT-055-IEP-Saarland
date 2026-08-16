@@ -29,7 +29,14 @@ Das System basiert auf folgenden Kernkomponenten:
 
 Das Projekt soll zeigen, dass regenerative Energiegewinnung und landwirtschaftliche Nutzung keine Gegensätze sind – sondern dass sie sich gegenseitig verstärken können, wenn sie als gemeinsames System entworfen werden.
 
----
+## Visualisierung des Entwurfs
+
+**Gesamtübersicht des Systems:**
+![Gesamtansicht](docs/Volle%20Ansicht.png)
+
+**Technische Dekonstruktion der Grundeinheit:**
+![Detailzeichnung 1](docs/Detailzeichnung%201.png)
+![Detailzeichnung 2](docs/Detailzeichnung%202.png)
 
 ## Autorenschaft
 
