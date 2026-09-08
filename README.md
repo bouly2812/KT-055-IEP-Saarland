@@ -50,7 +50,7 @@ Das Projekt soll zeigen, dass regenerative Energiegewinnung und landwirtschaftli
 Dieser Prototyp baut auf einer längeren Entwicklungsarbeit auf, die im Februar 2026 dokumentiert wurde:
 
 - [Terra-Protokoll (07.02.2026)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fbouly2812%2FKT-055-IEP-Saarland%2Fmain%2Fhistory%2FTerra%2520Protokoll.docx&wdOrigin=BROWSELINK) – Philosophische und systemische Grundlagen
-- [Wiederbegrünung arider Klimazonen (17.02.2026)](https://raw.githubusercontent.com/bouly2812/KT-055-IEP-Saarland/main/history/Wiederbegruenung_arider_Klimazonen.md) – Systemische Analyse der Sauerstoffdynamik
+- - [Wiederbegrünung arider Klimazonen (17.02.2026)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fbouly2812%2FKT-055-IEP-Saarland%2Fmain%2Fhistory%2FWiederbegruenung_arider_Klimazonen.docx&wdOrigin=BROWSELINK)
 
 ---
 
