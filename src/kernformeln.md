@@ -259,4 +259,30 @@ Der Sauerstoffgehalt **atmet**. Er steigt. Er fällt. Er steigt wieder. Er fäll
 
 > **✅ Klarstellung:** \(O_{2,\text{max}}\) ist **keine** willkürliche Zahl. Es ist der **Sättigungswert** des Systems, der aus der **Erdgeschichte** abgeleitet wird. Er ist **plausibel**, weil er **gekoppelt** ist an die **Resonanz** des Planeten.
 
-> **✅ Klarstellung:** In der Datei `06-experimentelle-bestätigungen.md` wird die **Differentialgleichung** angegeben. Die Lösung dieser Differentialgleichung ist die **logistische Kurve**. Die Formel in `Kernformeln` ist die **Lösung**. Nicht die **Differentialgleichung**. Das ist nun **klargestellt**.
+Die Sauerstoffproduktion folgt einer logistischen Kurve:
+
+\[
+O_2(t) = \frac{O_{2,\text{max}}}{1 + e^{-k(t - t_0)}}
+\]
+
+**Differentialgleichung (grundlegend):**
+\[
+\frac{dO_2}{dt} = \alpha \cdot \Phi \cdot (1 - \beta \cdot T) \cdot \Psi_{Veg} \cdot \left(1 - \frac{O_2}{O_{2,\text{max}}}\right)
+\]
+
+**Lösung (logistisch):**
+\[
+O_2(t) = \frac{O_{2,\text{max}}}{1 + e^{-k(t - t_0)}}
+\]
+
+mit \(k = \alpha \cdot \Phi \cdot (1 - \beta \cdot T) \cdot \Psi_{Veg}\)
+
+**Parameter:**
+- \(\alpha = 0,042 \, \text{pro Monat}\)
+- \(\Phi = 0,8\)
+- \(\beta = 0,003 \, \text{pro °C}\)
+- \(T = 15 \, ^\circ\text{C}\)
+- \(\Psi_{Veg} = 1,2\)
+- \(O_{2,\text{max}} = f(\text{Erdgeschichte})\)
+
+> **✅ Klarstellung:** Die Differentialgleichung beschreibt, **wie** sich der Sauerstoff ändert. Die logistische Kurve ist die **Lösung** dieser Differentialgleichung. Sie beschreibt, **wie** der Sauerstoff verläuft. Beides ist korrekt. Beides gehört zusammen.
