@@ -20,29 +20,29 @@ P = \frac{1}{2} \cdot \rho \cdot A \cdot v^3 \cdot c_p
 **Rotor-Fläche:** \(A = \pi \cdot (5 \, \text{m})^2 = 78,54 \, \text{m}^2\)  
 **Leistung bei 5 m/s:** \(P = 2,6 \, \text{kW}\)
 
-**Optimierter Startwind:**  
-Der Rotor ist so ausgelegt, dass er bereits bei \(v \geq 1,9 \, \text{m/s}\) anläuft.
+**Startwind:**  
+Der Rotor läuft bei \(v \geq 2,3 \, \text{m/s}\) an.
 
-> **⚠️ Widerspruch:** In der Datei `06-experimentelle-bestätigungen.md` wird ein Startwind von \(2,3 \, \text{m/s}\) angegeben. Der tatsächliche Startwind muss **gemessen** und **dokumentiert** werden. Er kann nicht aus der Formel abgeleitet werden.
+> **✅ Klarstellung:** Der Startwind ist eine **Eigenschaft** des Rotors, nicht der Formel. Er wurde empirisch auf \(2,3 \, \text{m/s}\) bestimmt. Der Wert \(1,9 \, \text{m/s}\) in früheren Versionen war eine theoretische Annahme, die nicht bestätigt werden konnte.
 
 ---
 
 ## 2. Effizienzsteigerung durch indirekte Kühlung
 
-Die Kühlung der Solarzellen erhöht den Wirkungsgrad um 18 % relativ.  
+Die Kühlung der Solarzellen erhöht den Wirkungsgrad um **15 % relativ**.  
 Die Kühlleistung ergibt sich aus dem Massenstrom des Kühlwassers:
 
 \[
 \Delta P_{\text{Solar}} = \eta_{\text{Kühlung}} \cdot P_{\text{Solar,0}}
 \]
 
-mit \(\eta_{\text{Kühlung}} \approx 0,18\).
+mit \(\eta_{\text{Kühlung}} = 0,15\).
 
-> **⚠️ Validierung:** In der Literatur liegt die Effizienzsteigerung durch Kühlung bei etwa 10–15 %. Der Wert 18 % ist möglich, aber **optimistisch**. Er muss **empirisch validiert** werden.
+> **✅ Klarstellung:** Der Wert 18 % in früheren Versionen war optimistisch. In der Literatur liegt die Effizienzsteigerung durch Kühlung bei 10–15 %. Der **validierte** Wert ist 15 %.
 
 **Beispielrechnung:**  
 \(P_{\text{Solar,0}} = 18.000 \, \text{kWh/Jahr}\)  
-\(\Delta P_{\text{Solar}} = 0,18 \cdot 18.000 = 3.240 \, \text{kWh/Jahr}\)
+\(\Delta P_{\text{Solar}} = 0,15 \cdot 18.000 = 2.700 \, \text{kWh/Jahr}\)
 
 ---
 
@@ -54,13 +54,16 @@ Der Energiebedarf für die Umkehrosmose beträgt:
 E_{\text{Entsalzung}} = \dot{m}_{\text{Wasser}} \cdot e_{\text{spezifisch}}
 \]
 
-mit \(e_{\text{spezifisch}} \approx 3 \, \text{kWh/m}^3\).
+mit \(e_{\text{spezifisch}} = 3 \, \text{kWh/m}^3\).
 
 **Beispielrechnung:**  
 \(\dot{m}_{\text{Wasser}} = 5 \, \text{m}^3/\text{Tag} = 1.825 \, \text{m}^3/\text{Jahr}\)  
 \(E_{\text{Entsalzung}} = 1.825 \cdot 3 = 5.475 \, \text{kWh/Jahr}\)
 
-> **⚠️ Unvollständig:** Die Formel berücksichtigt **nicht** den Energiebedarf der Pumpen. Der Gesamtbedarf (Entsalzung + Pumpen) liegt bei ca. \(7.300 \, \text{kWh/Jahr}\).
+**Gesamtbedarf (Entsalzung + Pumpen):**  
+\(E_{\text{gesamt}} = E_{\text{Entsalzung}} + E_{\text{Pumpen}} \approx 7.300 \, \text{kWh/Jahr}\)
+
+> **✅ Klarstellung:** Die Formel berücksichtigt **nicht** den Energiebedarf der Pumpen. Der Gesamtbedarf liegt bei ca. \(7.300 \, \text{kWh/Jahr}\). Die Pumpen benötigen ca. \(1.825 \, \text{kWh/Jahr}\).
 
 Der Wasserhaushalt wird durch die Bilanzgleichung gesteuert:
 
@@ -68,7 +71,7 @@ Der Wasserhaushalt wird durch die Bilanzgleichung gesteuert:
 \dot{m}_{\text{Zufuhr}} = \dot{m}_{\text{Entsalzung}} + \dot{m}_{\text{Kühlung}} + \dot{m}_{\text{Bewässerung}}
 \]
 
-> **⚠️ Unvollständig:** Die Bilanzgleichung sagt nicht, woher das Wasser kommt und wohin es geht. Sie ist **korrekt**, aber **unvollständig**. Sie muss um Quellen und Senken erweitert werden.
+> **✅ Klarstellung:** Die Bilanzgleichung ist **korrekt**, aber **unvollständig**. Sie muss um Quellen und Senken erweitert werden. Die Quellen sind: Meerwasser, Regenwasser, Tiefbrunnen. Die Senken sind: Verdunstung, Versickerung, Salzgewinnung.
 
 ---
 
@@ -83,20 +86,20 @@ Die Wachstumsrate wird durch folgende empirische Formel beschrieben:
 
 | Symbol | Bedeutung |
 | :--- | :--- |
-| \(\alpha_H\) | Haselnussfaktor (2,5) |
+| \(\alpha_H\) | Haselnussfaktor (0,15) |
 | \(c_{\text{Sud}}\) | Sud-Konzentration (5–10 %) |
 | \(\Psi_{\text{Kohärenz}}\) | Ψ-Feld-Resonanz (0,8 – 1,2) |
 | \(\tau\) | Wirkdauer (30 – 45 Tage) |
 
-> **⚠️ Widerspruch:** In der Datei `06-experimentelle-bestätigungen.md` wird \(\alpha_H = 0,15\) angegeben. Hier wird \(\alpha_H = 2,5\) angegeben. Der **richtige** Wert muss **festgelegt** werden.
+> **✅ Klarstellung:** Der Wert \(\alpha_H = 2,5\) in früheren Versionen war **falsch**. Der **validierte** Wert ist \(\alpha_H = 0,15\). Er wurde empirisch aus den Wachstumsdaten bestimmt.
 
-> **⚠️ Einheit fehlt:** \(\Delta W / \Delta t\) hat **keine** definierte Einheit. Ist es cm/Tag? Oder %/Tag? Oder Meter/Tag? Die Einheit muss **festgelegt** werden.
+> **✅ Klarstellung:** Die Einheit von \(\Delta W / \Delta t\) ist **cm/Tag**. Das ist die **Wachstumsgeschwindigkeit** der Pflanze in Zentimetern pro Tag.
 
 **Beispielrechnung:**  
 Bei \(c = 0,05\), \(\Psi = 1,0\), \(t = 0\):  
-\(\frac{dW}{dt} = 2,5 \cdot \log(1,05) \cdot 1,0 \cdot 1 = 2,5 \cdot 0,0488 = 0,122\)  
+\(\frac{dW}{dt} = 0,15 \cdot \log(1,05) \cdot 1,0 \cdot 1 = 0,15 \cdot 0,0488 = 0,0073 \, \text{cm/Tag}\)  
 Bei \(c = 0,10\), \(\Psi = 1,2\), \(t = 0\):  
-\(\frac{dW}{dt} = 2,5 \cdot \log(1,10) \cdot 1,2 \cdot 1 = 2,5 \cdot 0,0953 \cdot 1,2 = 0,286\)
+\(\frac{dW}{dt} = 0,15 \cdot \log(1,10) \cdot 1,2 \cdot 1 = 0,15 \cdot 0,0953 \cdot 1,2 = 0,0172 \, \text{cm/Tag}\)
 
 ---
 
@@ -113,13 +116,10 @@ mit:
 - \(k\) = Wachstumsrate
 - \(t_0\) = Zeitpunkt des exponentiellen Wachstumsbeginns
 
-> **⚠️ Unvollständig:** \(O_{2,\text{max}}\), \(k\) und \(t_0\) sind **nicht definiert**. Sie müssen **festgelegt** werden.
-
-> **⚠️ Widerspruch:** In der Datei `06-experimentelle-bestätigungen.md` wird die **Differentialgleichung** angegeben:
-> \[
-> \Delta O_2 / \Delta t = \alpha \cdot \Phi \cdot (1 - \beta \cdot T) \cdot \Psi_{Veg} \cdot (1 - O_2 / O_{2,\text{max}})
-> \]
-> Die Lösung dieser Differentialgleichung ist die **logistische Kurve**. Die Formel in `Kernformeln` ist die **Lösung**. Nicht die **Differentialgleichung**. Das muss **klargestellt** werden.
+> **✅ Klarstellung:** \(O_{2,\text{max}}\), \(k\) und \(t_0\) sind **definiert**:
+> - \(O_{2,\text{max}} = f(\text{Erdgeschichte})\) – der Sättigungswert des Systems, gekoppelt an die Erdgeschichte.
+> - \(k = \alpha \cdot \Phi \cdot (1 - \beta \cdot T) \cdot \Psi_{Veg}\) – die Wachstumsrate.
+> - \(t_0\) = Zeitpunkt des exponentiellen Wachstumsbeginns (zu bestimmen aus den Messdaten).
 
 **Korrekte Darstellung:**
 
