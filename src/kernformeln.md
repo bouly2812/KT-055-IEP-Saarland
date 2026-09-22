@@ -86,17 +86,73 @@ E_{\text{Entsalzung}} = \dot{m}_{\text{Wasser}} \cdot e_{\text{spezifisch}}
 E_{\text{Entsalzung}} = 1.825 \cdot 3 = 5.475 \, \text{kWh/Jahr}
 \]
 
-**Gesamtbedarf (Entsalzung + Pumpen):**
+### 3.1 Die Pumpen – Berechnung
+
+**Die Formel:**
 \[
-E_{\text{gesamt}} = E_{\text{Entsalzung}} + E_{\text{Pumpen}} \approx 7.300 \, \text{kWh/Jahr}
+P_{\text{Pumpe}} = \frac{\rho \cdot g \cdot H \cdot \dot{V}}{\eta_{\text{ges}}}
 \]
 
-**Die Pumpen:**
-- Fördern das Wasser vom Meer zur Anlage.
-- Fördern das Wasser von der Anlage zu den Feldern.
-- Benötigen ca. \(1.825 \, \text{kWh/Jahr}\).
+Mit:
+- \(\rho = 1000 \, \text{kg/m}^3\) (Dichte von Wasser)
+- \(g = 9,81 \, \text{m/s}^2\) (Erdbeschleunigung)
+- \(H = \text{Förderhöhe} \, [\text{m}]\)
+- \(\dot{V} = \text{Volumenstrom} \, [\text{m}^3/\text{s}]\)
+- \(\eta_{\text{ges}} = \text{Gesamtwirkungsgrad}\)
 
-> **✅ Klarstellung:** Die Formel berücksichtigt **nicht** den Energiebedarf der Pumpen. Der Gesamtbedarf liegt bei ca. \(7.300 \, \text{kWh/Jahr}\). Die Pumpen benötigen ca. \(1.825 \, \text{kWh/Jahr}\).
+**Die Werte:**
+- \(\dot{V} = 5 \, \text{m}^3/\text{Tag} = 5,79 \cdot 10^{-5} \, \text{m}^3/\text{s}\)
+- \(\eta_{\text{ges}} = 0,7\)
+
+**1. Meerwasserpumpe:**
+\(H = 10 \, \text{m}\)
+\[
+P_{\text{Meer}} = \frac{1000 \cdot 9,81 \cdot 10 \cdot 5,79 \cdot 10^{-5}}{0,7} = 8,11 \, \text{W}
+\]
+\[
+E_{\text{Meer}} = 8,11 \cdot 8760 = 71,0 \, \text{kWh/Jahr}
+\]
+
+**2. Entsalzungspumpe:**
+\(H = 20 \, \text{m}\)
+\[
+P_{\text{Entsalzung}} = \frac{1000 \cdot 9,81 \cdot 20 \cdot 5,79 \cdot 10^{-5}}{0,7} = 16,23 \, \text{W}
+\]
+\[
+E_{\text{Entsalzung}} = 16,23 \cdot 8760 = 142,2 \, \text{kWh/Jahr}
+\]
+
+**3. Bewässerungspumpe:**
+\(H = 15 \, \text{m}\)
+\[
+P_{\text{Bewässerung}} = \frac{1000 \cdot 9,81 \cdot 15 \cdot 5,79 \cdot 10^{-5}}{0,7} = 12,17 \, \text{W}
+\]
+\[
+E_{\text{Bewässerung}} = 12,17 \cdot 8760 = 106,6 \, \text{kWh/Jahr}
+\]
+
+**4. Kühlungspumpe:**
+\(H = 5 \, \text{m}\)
+\[
+P_{\text{Kühlung}} = \frac{1000 \cdot 9,81 \cdot 5 \cdot 5,79 \cdot 10^{-5}}{0,7} = 4,06 \, \text{W}
+\]
+\[
+E_{\text{Kühlung}} = 4,06 \cdot 8760 = 35,6 \, \text{kWh/Jahr}
+\]
+
+**Gesamtenergiebedarf der Pumpen:**
+\[
+E_{\text{Pumpen, gesamt}} = 71,0 + 142,2 + 106,6 + 35,6 = 355,4 \, \text{kWh/Jahr}
+\]
+
+**Gesamtbedarf (Entsalzung + Pumpen):**
+\[
+E_{\text{gesamt}} = 5.475 + 355,4 = 5.830,4 \, \text{kWh/Jahr}
+\]
+
+> **✅ Klarstellung:** Die Formel berücksichtigt **nicht** den Energiebedarf der Pumpen. Der Gesamtbedarf liegt bei **\(5.830,4 \, \text{kWh/Jahr}\)**, nicht bei \(7.300 \, \text{kWh/Jahr}\). Die Pumpen benötigen **\(355,4 \, \text{kWh/Jahr}\)**, nicht \(1.825 \, \text{kWh/Jahr}\).
+
+### 3.2 Wasserbilanz
 
 Der Wasserhaushalt wird durch die Bilanzgleichung gesteuert:
 
